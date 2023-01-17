@@ -1,0 +1,1622 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+
+::-webkit-scrollbar {
+    height: 1vmax;
+    width: .5vmax;
+    background: gray;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: #000;
+    border-radius: 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.introcontainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+    overflow-y: hidden !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: 1602px 661px #FFF, 1779px 795px #FFF, 1154px 812px #FFF, 1328px 800px #FFF, 1262px 1251px #FFF, 1976px 432px #FFF, 1650px 1853px #FFF, 1001px 468px #FFF, 609px 405px #FFF, 1842px 1576px #FFF, 742px 1365px #FFF, 321px 1286px #FFF, 462px 926px #FFF, 481px 458px #FFF, 484px 1952px #FFF, 380px 1267px #FFF, 1122px 820px #FFF, 1626px 1217px #FFF, 1953px 1255px #FFF, 1728px 140px #FFF, 1430px 1262px #FFF, 7px 463px #FFF, 1664px 338px #FFF, 63px 11px #FFF, 552px 438px #FFF, 3px 783px #FFF, 1247px 361px #FFF, 803px 121px #FFF, 755px 1435px #FFF, 659px 1572px #FFF, 462px 256px #FFF, 654px 1979px #FFF, 1747px 1521px #FFF, 1222px 1922px #FFF, 1615px 1672px #FFF, 980px 918px #FFF, 1477px 1509px #FFF, 1311px 365px #FFF, 286px 1255px #FFF, 897px 1108px #FFF, 770px 330px #FFF, 337px 598px #FFF, 1192px 711px #FFF, 1656px 1284px #FFF, 1808px 543px #FFF, 1099px 608px #FFF, 1215px 157px #FFF, 1670px 748px #FFF, 110px 734px #FFF, 1513px 1678px #FFF, 137px 1969px #FFF, 242px 1029px #FFF, 670px 606px #FFF, 1173px 1915px #FFF, 1730px 1946px #FFF, 1617px 1395px #FFF, 294px 1214px #FFF, 942px 1551px #FFF, 327px 885px #FFF, 1961px 128px #FFF, 314px 333px #FFF, 845px 1457px #FFF, 1293px 408px #FFF, 1058px 582px #FFF, 1981px 1771px #FFF, 1473px 311px #FFF, 1227px 955px #FFF, 1937px 1262px #FFF, 754px 624px #FFF, 266px 619px #FFF, 182px 1621px #FFF, 29px 802px #FFF, 1075px 298px #FFF, 1986px 1900px #FFF, 1770px 447px #FFF, 1291px 57px #FFF, 782px 1535px #FFF, 1312px 111px #FFF, 1194px 651px #FFF, 899px 193px #FFF, 282px 163px #FFF, 1341px 998px #FFF, 379px 1540px #FFF, 406px 1584px #FFF, 1227px 223px #FFF, 1525px 402px #FFF, 66px 1842px #FFF, 1531px 1873px #FFF, 1303px 376px #FFF, 1949px 1797px #FFF, 1093px 1018px #FFF, 937px 886px #FFF, 1954px 1675px #FFF, 1957px 304px #FFF, 74px 400px #FFF, 556px 1123px #FFF, 1659px 1330px #FFF, 1110px 916px #FFF, 503px 271px #FFF, 1574px 1851px #FFF, 436px 1833px #FFF, 175px 1150px #FFF, 43px 1691px #FFF, 1758px 1857px #FFF, 413px 257px #FFF, 596px 336px #FFF, 1608px 338px #FFF, 333px 108px #FFF, 794px 1318px #FFF, 1150px 73px #FFF, 891px 1149px #FFF, 1614px 387px #FFF, 1930px 1770px #FFF, 465px 591px #FFF, 394px 472px #FFF, 438px 1877px #FFF, 537px 1345px #FFF, 583px 470px #FFF, 1493px 1112px #FFF, 1437px 1380px #FFF, 494px 1304px #FFF, 17px 1388px #FFF, 1001px 1558px #FFF, 10px 978px #FFF, 25px 1053px #FFF, 732px 576px #FFF, 1169px 297px #FFF, 915px 1519px #FFF, 280px 1149px #FFF, 1430px 761px #FFF, 45px 208px #FFF, 1790px 1104px #FFF, 953px 296px #FFF, 1480px 733px #FFF, 1024px 1171px #FFF, 1473px 1335px #FFF, 631px 329px #FFF, 1498px 1792px #FFF, 385px 1825px #FFF, 483px 781px #FFF, 1888px 85px #FFF, 1659px 715px #FFF, 192px 177px #FFF, 275px 1243px #FFF, 1203px 1087px #FFF, 412px 857px #FFF, 1302px 1270px #FFF, 787px 389px #FFF, 751px 1838px #FFF, 1381px 1377px #FFF, 196px 878px #FFF, 134px 277px #FFF, 145px 549px #FFF, 1957px 1961px #FFF, 1120px 1050px #FFF, 1354px 972px #FFF, 1158px 1771px #FFF, 47px 352px #FFF, 1112px 584px #FFF, 164px 1386px #FFF, 1273px 1782px #FFF, 110px 780px #FFF, 502px 299px #FFF, 1768px 933px #FFF, 886px 1287px #FFF, 1309px 1130px #FFF, 847px 776px #FFF, 1713px 269px #FFF, 1718px 795px #FFF, 1984px 717px #FFF, 985px 341px #FFF, 1462px 1078px #FFF, 1702px 1461px #FFF, 167px 1873px #FFF, 862px 1117px #FFF, 1968px 932px #FFF, 814px 91px #FFF, 1530px 607px #FFF, 1799px 1571px #FFF, 1868px 1734px #FFF, 1800px 1137px #FFF, 52px 178px #FFF, 901px 853px #FFF, 1181px 1232px #FFF, 209px 650px #FFF, 1165px 1321px #FFF, 1046px 159px #FFF, 578px 1748px #FFF, 18px 337px #FFF, 70px 1062px #FFF, 1670px 270px #FFF, 1828px 1321px #FFF, 1817px 336px #FFF, 124px 1935px #FFF, 1840px 594px #FFF, 836px 1194px #FFF, 1292px 1801px #FFF, 1547px 945px #FFF, 500px 1563px #FFF, 569px 376px #FFF, 1107px 1627px #FFF, 662px 717px #FFF, 1352px 762px #FFF, 771px 1694px #FFF, 1529px 484px #FFF, 1609px 798px #FFF, 652px 627px #FFF, 498px 20px #FFF, 1308px 164px #FFF, 245px 1239px #FFF, 1131px 860px #FFF, 1028px 333px #FFF, 765px 1760px #FFF, 1627px 684px #FFF, 70px 1586px #FFF, 63px 1230px #FFF, 1727px 465px #FFF, 1946px 1862px #FFF, 169px 956px #FFF, 121px 1826px #FFF, 1615px 725px #FFF, 1225px 1925px #FFF, 1678px 323px #FFF, 606px 371px #FFF, 616px 985px #FFF, 490px 1898px #FFF, 516px 1019px #FFF, 878px 1448px #FFF, 1533px 98px #FFF, 625px 1152px #FFF, 224px 522px #FFF, 215px 245px #FFF, 153px 669px #FFF, 1530px 1652px #FFF, 1796px 1697px #FFF, 908px 1456px #FFF, 1326px 1947px #FFF, 1294px 872px #FFF, 806px 1296px #FFF, 783px 556px #FFF, 1075px 973px #FFF, 613px 505px #FFF, 1160px 833px #FFF, 1053px 1793px #FFF, 1343px 1990px #FFF, 937px 254px #FFF, 1084px 234px #FFF, 575px 374px #FFF, 367px 1656px #FFF, 494px 510px #FFF, 1403px 1242px #FFF, 1827px 1741px #FFF, 1239px 616px #FFF, 579px 1670px #FFF, 971px 836px #FFF, 1025px 813px #FFF, 707px 1407px #FFF, 188px 1777px #FFF, 1576px 18px #FFF, 1px 533px #FFF, 1123px 589px #FFF, 88px 705px #FFF, 1844px 679px #FFF, 121px 350px #FFF, 1853px 470px #FFF, 1333px 263px #FFF, 1702px 957px #FFF, 475px 725px #FFF, 1650px 75px #FFF, 1372px 11px #FFF, 714px 353px #FFF, 968px 461px #FFF, 1413px 1400px #FFF, 1856px 1724px #FFF, 793px 1524px #FFF, 1717px 962px #FFF, 1263px 1567px #FFF, 1621px 1961px #FFF, 537px 243px #FFF, 912px 1140px #FFF, 659px 1300px #FFF, 113px 516px #FFF, 1111px 1738px #FFF, 336px 953px #FFF, 1038px 248px #FFF, 692px 935px #FFF, 516px 1451px #FFF, 1057px 401px #FFF, 1014px 388px #FFF, 1363px 1764px #FFF, 855px 745px #FFF, 57px 767px #FFF, 779px 1263px #FFF, 1746px 1797px #FFF, 1975px 848px #FFF, 1051px 941px #FFF, 79px 1146px #FFF, 1945px 1015px #FFF, 1506px 1855px #FFF, 955px 730px #FFF, 27px 1865px #FFF, 1378px 1691px #FFF, 969px 1738px #FFF, 206px 842px #FFF, 1068px 91px #FFF, 1466px 1725px #FFF, 533px 1091px #FFF, 1205px 748px #FFF, 324px 398px #FFF, 1417px 1048px #FFF, 349px 1827px #FFF, 730px 1048px #FFF, 1671px 690px #FFF, 1441px 1068px #FFF, 251px 925px #FFF, 144px 1631px #FFF, 108px 1524px #FFF, 187px 1172px #FFF, 183px 403px #FFF, 907px 1873px #FFF, 973px 104px #FFF, 65px 1390px #FFF, 372px 1486px #FFF, 424px 765px #FFF, 1410px 350px #FFF, 760px 827px #FFF, 1179px 612px #FFF, 251px 1106px #FFF, 657px 851px #FFF, 63px 925px #FFF, 1272px 1791px #FFF, 1361px 1189px #FFF, 778px 1101px #FFF, 817px 1436px #FFF, 1884px 1440px #FFF, 1662px 1781px #FFF, 276px 990px #FFF, 1835px 1617px #FFF, 1516px 246px #FFF, 544px 1792px #FFF, 667px 1652px #FFF, 1142px 1221px #FFF, 1417px 38px #FFF, 33px 1467px #FFF, 1087px 1608px #FFF, 1406px 1323px #FFF, 440px 1564px #FFF, 1697px 758px #FFF, 743px 340px #FFF, 1244px 218px #FFF, 1382px 1783px #FFF, 539px 1285px #FFF, 273px 592px #FFF, 1268px 444px #FFF, 1302px 70px #FFF, 989px 478px #FFF, 1044px 1477px #FFF, 395px 803px #FFF, 1609px 1799px #FFF, 999px 100px #FFF, 1444px 2000px #FFF, 1966px 1675px #FFF, 51px 822px #FFF, 1387px 825px #FFF, 983px 440px #FFF, 1269px 624px #FFF, 1303px 1455px #FFF, 666px 313px #FFF, 1776px 132px #FFF, 1041px 1523px #FFF, 168px 1599px #FFF, 1714px 604px #FFF, 657px 594px #FFF, 1301px 1318px #FFF, 961px 541px #FFF, 310px 422px #FFF, 636px 1847px #FFF, 814px 1005px #FFF, 444px 1093px #FFF, 583px 1551px #FFF, 1746px 1807px #FFF, 1550px 1359px #FFF, 283px 1837px #FFF, 1257px 1772px #FFF, 1620px 1691px #FFF, 727px 1180px #FFF, 798px 1744px #FFF, 754px 1707px #FFF, 1871px 189px #FFF, 1355px 1000px #FFF, 1839px 599px #FFF, 7px 1689px #FFF, 775px 966px #FFF, 231px 1980px #FFF, 1231px 717px #FFF, 1748px 1658px #FFF, 385px 1352px #FFF, 1168px 182px #FFF, 576px 997px #FFF, 1955px 279px #FFF, 314px 1162px #FFF, 626px 1525px #FFF, 1372px 597px #FFF, 168px 809px #FFF, 1559px 1646px #FFF, 1316px 600px #FFF, 1903px 1615px #FFF, 1899px 173px #FFF, 1936px 1042px #FFF, 977px 180px #FFF, 80px 1132px #FFF, 1258px 287px #FFF, 1944px 1624px #FFF, 1710px 1271px #FFF, 859px 315px #FFF, 658px 601px #FFF, 444px 516px #FFF, 1443px 70px #FFF, 61px 1468px #FFF, 67px 338px #FFF, 1888px 711px #FFF, 1838px 1848px #FFF, 1252px 774px #FFF, 1986px 1392px #FFF, 1734px 213px #FFF, 1904px 76px #FFF, 1503px 1882px #FFF, 268px 113px #FFF, 1124px 387px #FFF, 565px 1591px #FFF, 446px 1116px #FFF, 1861px 661px #FFF, 55px 1090px #FFF, 328px 837px #FFF, 775px 85px #FFF, 436px 632px #FFF, 1704px 904px #FFF, 406px 1068px #FFF, 1077px 719px #FFF, 125px 722px #FFF, 1735px 174px #FFF, 1541px 1590px #FFF, 1883px 498px #FFF, 733px 1195px #FFF, 1178px 1793px #FFF, 254px 719px #FFF, 1790px 545px #FFF, 799px 454px #FFF, 1076px 1737px #FFF, 360px 95px #FFF, 516px 1367px #FFF, 1016px 493px #FFF, 1340px 15px #FFF, 1843px 355px #FFF, 416px 1857px #FFF, 1745px 1967px #FFF, 1768px 1266px #FFF, 778px 1437px #FFF, 1892px 1480px #FFF, 1861px 1700px #FFF, 1973px 832px #FFF, 132px 1773px #FFF, 1928px 1974px #FFF, 470px 1852px #FFF, 1855px 463px #FFF, 892px 1018px #FFF, 374px 1670px #FFF, 140px 391px #FFF, 1868px 1945px #FFF, 505px 1988px #FFF, 1798px 1514px #FFF, 134px 873px #FFF, 1319px 1278px #FFF, 1796px 1403px #FFF, 1400px 503px #FFF, 480px 1004px #FFF, 53px 434px #FFF, 1075px 507px #FFF, 1376px 13px #FFF, 150px 623px #FFF, 563px 1355px #FFF, 1464px 858px #FFF, 1123px 967px #FFF, 1273px 1412px #FFF, 1378px 1689px #FFF, 1390px 1248px #FFF, 273px 191px #FFF, 471px 46px #FFF, 1520px 780px #FFF, 830px 530px #FFF, 1369px 1915px #FFF, 434px 1541px #FFF, 1658px 753px #FFF, 1955px 1908px #FFF, 409px 1106px #FFF, 1609px 597px #FFF, 637px 1671px #FFF, 1957px 475px #FFF, 1595px 1496px #FFF, 1979px 1958px #FFF, 1364px 1658px #FFF, 929px 425px #FFF;
+}
+
+.stars2 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: 1938px 269px #FFF, 891px 389px #FFF, 22px 574px #FFF, 727px 474px #FFF, 1671px 1649px #FFF, 98px 400px #FFF, 641px 798px #FFF, 1218px 1051px #FFF, 907px 1485px #FFF, 1002px 1549px #FFF, 1932px 1448px #FFF, 1132px 573px #FFF, 1222px 1147px #FFF, 1009px 451px #FFF, 698px 1940px #FFF, 97px 1123px #FFF, 904px 751px #FFF, 1904px 593px #FFF, 1451px 1658px #FFF, 191px 1606px #FFF, 1346px 482px #FFF, 1935px 1086px #FFF, 1052px 224px #FFF, 526px 1810px #FFF, 1607px 606px #FFF, 427px 1830px #FFF, 1546px 407px #FFF, 1771px 208px #FFF, 1714px 181px #FFF, 1332px 943px #FFF, 1663px 1094px #FFF, 1861px 1747px #FFF, 1429px 1217px #FFF, 1733px 1915px #FFF, 925px 1179px #FFF, 735px 781px #FFF, 1775px 1989px #FFF, 1770px 476px #FFF, 844px 400px #FFF, 1793px 1517px #FFF, 544px 281px #FFF, 725px 344px #FFF, 1274px 764px #FFF, 1845px 339px #FFF, 582px 1745px #FFF, 351px 1287px #FFF, 207px 749px #FFF, 1063px 1411px #FFF, 1246px 342px #FFF, 1538px 166px #FFF, 770px 602px #FFF, 1214px 1971px #FFF, 113px 294px #FFF, 1157px 101px #FFF, 1657px 517px #FFF, 637px 1693px #FFF, 961px 1649px #FFF, 1754px 1572px #FFF, 1885px 659px #FFF, 238px 34px #FFF, 413px 1027px #FFF, 1709px 1556px #FFF, 460px 878px #FFF, 1597px 608px #FFF, 544px 434px #FFF, 1258px 477px #FFF, 565px 1863px #FFF, 426px 322px #FFF, 1917px 850px #FFF, 296px 144px #FFF, 643px 1896px #FFF, 511px 116px #FFF, 359px 847px #FFF, 702px 1133px #FFF, 857px 1371px #FFF, 559px 1758px #FFF, 1615px 1223px #FFF, 1927px 1736px #FFF, 704px 941px #FFF, 1932px 942px #FFF, 1462px 335px #FFF, 154px 1915px #FFF, 1387px 918px #FFF, 1512px 1041px #FFF, 1094px 1334px #FFF, 1678px 865px #FFF, 1960px 431px #FFF, 666px 1258px #FFF, 422px 1215px #FFF, 345px 802px #FFF, 1207px 647px #FFF, 1701px 374px #FFF, 1440px 1925px #FFF, 1536px 1163px #FFF, 905px 155px #FFF, 843px 1036px #FFF, 660px 823px #FFF, 1329px 661px #FFF, 1867px 899px #FFF, 1022px 514px #FFF, 1062px 1570px #FFF, 888px 1786px #FFF, 699px 1738px #FFF, 1831px 1712px #FFF, 434px 18px #FFF, 227px 205px #FFF, 520px 1279px #FFF, 1329px 764px #FFF, 1824px 47px #FFF, 112px 266px #FFF, 830px 1140px #FFF, 478px 637px #FFF, 634px 850px #FFF, 711px 873px #FFF, 987px 249px #FFF, 1454px 909px #FFF, 699px 922px #FFF, 1458px 1142px #FFF, 701px 1893px #FFF, 134px 384px #FFF, 904px 354px #FFF, 1913px 1229px #FFF, 1606px 1336px #FFF, 976px 1776px #FFF, 1726px 605px #FFF, 1244px 590px #FFF, 1351px 526px #FFF, 1997px 130px #FFF, 1137px 1134px #FFF, 1293px 283px #FFF, 977px 1608px #FFF, 422px 1252px #FFF, 236px 1653px #FFF, 28px 1722px #FFF, 698px 39px #FFF, 5px 434px #FFF, 1430px 1466px #FFF, 1470px 1596px #FFF, 487px 81px #FFF, 186px 340px #FFF, 1941px 1px #FFF, 1342px 487px #FFF, 813px 1855px #FFF, 1445px 148px #FFF, 1965px 1428px #FFF, 1122px 1277px #FFF, 846px 820px #FFF, 1804px 228px #FFF, 1501px 121px #FFF, 215px 1033px #FFF, 244px 426px #FFF, 976px 453px #FFF, 566px 953px #FFF, 1772px 213px #FFF, 1323px 1778px #FFF, 1350px 817px #FFF, 803px 913px #FFF, 1395px 1359px #FFF, 1995px 119px #FFF, 579px 1963px #FFF, 862px 1621px #FFF, 1718px 825px #FFF, 823px 27px #FFF, 1252px 41px #FFF, 1562px 835px #FFF, 1730px 633px #FFF, 1723px 1939px #FFF, 524px 1824px #FFF, 1921px 1450px #FFF, 1174px 1062px #FFF, 1008px 1932px #FFF, 467px 334px #FFF, 80px 818px #FFF, 1266px 1185px #FFF, 1589px 807px #FFF, 1221px 320px #FFF, 1724px 852px #FFF, 1194px 286px #FFF, 800px 1835px #FFF, 1958px 728px #FFF, 1271px 376px #FFF, 43px 1654px #FFF, 77px 803px #FFF, 1399px 197px #FFF, 591px 1743px #FFF, 652px 1925px #FFF, 107px 1939px #FFF, 1110px 1708px #FFF, 797px 1480px #FFF, 1516px 684px #FFF, 559px 1733px #FFF, 1265px 718px #FFF, 1263px 54px #FFF, 693px 113px #FFF, 1456px 1459px #FFF, 1527px 1324px #FFF;
+    transform: rotatex(10deg);
+}
+
+
+
+.sunglare1 {
+    display: flex;
+    position: absolute;
+    width: 4vmax;
+    height: 4vmax;
+    transform: translate(-50%, -50%);
+    background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(17, 17, 17));
+    border-radius: 100%;
+    box-shadow: -12px -12px 12px 0px inset rgb(17, 17, 17);
+    z-index: 107;
+    animation: fadein 1.5s ease .5s forwards;
+    opacity: 0;
+}
+
+.sunglare2 {
+    display: flex;
+    position: absolute;
+    width: 8vmax;
+    height: 8vmax;
+    top: 12.3vh;
+    left: 6.3vw;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    box-shadow: -5px -5px 5px 0px inset white;
+    border-radius: 100%;
+    z-index: 106;
+}
+
+.sunglare3 {
+    display: flex;
+    position: absolute;
+    width: 12vmax;
+    height: 12vmax;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 8px 10px 2px inset white;
+    background-color: rgb(17, 17, 17);
+    border-radius: 100%;
+    z-index: 105;
+    animation: fadein 1.5s ease .5s forwards;
+    opacity: 0;
+
+}
+
+.sunglare4 {
+    display: flex;
+    position: absolute;
+    width: 25vmax;
+    height: 25vmax;
+    background-color: rgb(17, 17, 17);
+    box-shadow: 10px 15px 15px 2px inset white;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    z-index: 104;
+    animation: fadein 1.5s ease .5s forwards;
+    opacity: 0;
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.systemcontainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes entry {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes exit {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.moon {
+    display: flex;
+    position: relative;
+    width: 5.4vmax;
+    height: 5.4vmax;
+    background-image: url(moon2.jpg);
+    background-size: 11vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    transform: rotateZ(0deg);
+    left: 0%;
+    top: -12vmax;
+    transform: translate(0%, -235%);
+    opacity: 1;
+    animation: moonorbit 60s linear infinite, rotationm 680s linear .5s forwards infinite;
+    z-index: 3;
+}
+
+@keyframes rotationm {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 11vmax;
+    }
+}
+
+
+@keyframes moonorbit {
+    0% {
+        left: 0%;
+        z-index: 2;
+        transform: scale(2.4);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    8.33% {
+        left: 20%;
+        z-index: 2;
+        transform: scale(2);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    16.66% {
+        left: 40%;
+        z-index: 2;
+        transform: scale(1.6);
+        box-shadow: -1vmax -1vmax 6vmax 1vmax inset rgb(17, 17, 17);
+    }
+
+    24.99% {
+        left: 60%;
+        z-index: 1;
+        transform: scale(1.2);
+        box-shadow: -1vmax -1vmax 8vmax 1vmax inset rgb(17, 17, 17);
+    }
+
+    33.32% {
+        left: 40%;
+        z-index: 1;
+        transform: scale(.8);
+        box-shadow: -1vmax -1vmax 6vmax 1vmax inset rgb(17, 17, 17);
+    }
+
+    41.65% {
+        left: 20%;
+        z-index: 1;
+        transform: scale(.4);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    49.98% {
+        left: 0%;
+        z-index: 1;
+        transform: scale(.2);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    58.31% {
+        left: -20%;
+        z-index: 1;
+        transform: scale(.4);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    66.64% {
+        left: -40%;
+        z-index: 2;
+        transform: scale(.8);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    74.97% {
+        left: -60%;
+        z-index: 2;
+        transform: scale(1.2);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    83.3% {
+        left: -40%;
+        z-index: 2;
+        transform: scale(1.6);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    91.63% {
+        left: -20%;
+        z-index: 2;
+        transform: scale(2);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+
+    100% {
+        left: 0%;
+        z-index: 2;
+        transform: scale(2.4);
+        box-shadow: -1vmax -1vmax 1vmax 0vmax inset rgb(17, 17, 17);
+    }
+}
+
+.earthcontainer {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: entry 3s ease forwards;
+}
+
+.earth {
+    display: flex;
+    position: relative;
+    width: 20vmax;
+    height: 20vmax;
+    background-image: url(earth.jpg);
+    background-size: 45vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    transform: rotateZ(-10deg);
+    opacity: 1;
+    animation: rotatione 24s linear .5s forwards infinite;
+    z-index: 2;
+    overflow: visible;
+
+}
+
+
+.earthname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+    transform: rotateZ(10deg);
+}
+
+
+
+
+@keyframes rotatione {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 45vmax;
+    }
+}
+
+.sun {
+    display: flex;
+    position: relative;
+    width: 40vmax;
+    height: 40vmax;
+    background-image: url(sun.jpg);
+    background-size: 85vmax;
+    border-radius: 100%;
+    box-shadow: 0vmax 0vmax 2vmax 1vmax rgb(255, 102, 0);
+    animation: rotations 150s linear infinite;
+    transform: scale(.5);
+    left: 0%;
+}
+
+@keyframes rotations {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 85vmax;
+    }
+}
+
+
+@keyframes sunintro {
+    0% {
+        left: 0%;
+        transform: scale(.5);
+    }
+
+    16.66% {
+        left: 50%;
+        transform: scale(.75);
+    }
+
+    33.32% {
+        left: 100%;
+        transform: scale(1);
+    }
+
+    49.98% {
+        left: 50%;
+        transform: scale(1.5);
+    }
+
+    66.64% {
+        left: 0%;
+        transform: scale(2);
+    }
+
+    83.33% {
+        left: -50%;
+        transform: scale(1.5);
+    }
+
+    100% {
+        left: -100%;
+        transform: scale(1);
+        z-index: 1;
+    }
+}
+
+@keyframes sunreset {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.hermes {
+    display: none;
+    position: relative;
+    width: 7.6vmax;
+    height: 7.6vmax;
+    background-image: url(hermes-min.jpg);
+    background-size: 14vmax;
+    border-radius: 100%;
+    box-shadow: -0.38vmax -0.38vmax 0.38vmax -0.456vmax white, -1.14vmax -1.14vmax 0.76vmax 0vmax inset rgb(17, 17, 17);
+    opacity: 1;
+    left: -100%;
+    animation: rotationh 150s linear forwards infinite, entry 3s ease forwards;
+    overflow: visible;
+}
+
+.mercname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+@keyframes planetname {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+@keyframes rotationh {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 14vmax;
+    }
+}
+
+
+.aphrodite {
+    display: none;
+    position: relative;
+    width: 18.8vmax;
+    height: 18.8vmax;
+    background-image: url(venus.jpg);
+    background-size: 42.3vmax;
+    border-radius: 100%;
+    box-shadow: -0.94vmax -0.94vmax 0.94vmax -1.16vmax white, -2.79vmax -2.79vmax 1.86vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotationa 24s linear .5s forwards infinite, entry 3s ease forwards;
+    overflow: visible;
+}
+
+.aphroname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+@keyframes rotationa {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 42.3vmax;
+    }
+}
+
+
+.ares {
+    display: none;
+    position: relative;
+    width: 10.6vmax;
+    height: 10.6vmax;
+    background-image: url(mars.webp);
+    background-size: 23.85vmax;
+    border-radius: 100%;
+    box-shadow: -0.53vmax -0.53vmax 0.53vmax -0.636vmax white, -1.59vmax -1.59vmax 1.06vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotationar 24.37s linear .5s forwards infinite, entry 3s ease forwards;
+    overflow: visible;
+}
+
+.aresname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+
+@keyframes rotationar {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 23.85vmax;
+    }
+}
+
+
+.zeus {
+    display: none;
+    position: relative;
+    width: 30vmax;
+    height: 30vmax;
+    background-image: url(zeus.jpg);
+    background-size: 62.3vmax;
+    border-radius: 100%;
+    box-shadow: -1.5vmax -1.5vmax 1.5vmax -1.7vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotationz 300s linear .5s forwards infinite, entry 3s ease forwards;
+    overflow: visible;
+}
+
+.zeusname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+
+@keyframes rotationz {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 62.3vmax;
+    }
+}
+
+
+.saturncont {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: entry 3s ease forwards;
+}
+
+
+.kronos {
+    display: flex;
+    position: relative;
+    width: 30vmax;
+    height: 30vmax;
+    background-image: url(saturn.jpg);
+    background-size: 62.3vmax;
+    border-radius: 100%;
+    box-shadow: -1.5vmax -1.5vmax 1.5vmax -1.7vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotationk 150s linear forwards infinite;
+    z-index: 2;
+    overflow: visible;
+}
+
+.saturname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+
+
+@keyframes rotationk {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 62.3vmax;
+    }
+}
+
+
+.srings1 {
+    display: flex;
+    width: 50vmax;
+    height: 2vmax;
+    background-color: rgb(117, 117, 117);
+    background-image: url(srings.jpg);
+    background-size: 4vmax;
+    position: relative;
+    top: 0vmax;
+    left: 0;
+    transform: translate(0vmax, -16vmax);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    z-index: 1;
+    opacity: .3;
+    animation: rotationsr 150s linear forwards infinite;
+}
+
+.srings2 {
+    display: flex;
+    width: 50vmax;
+    height: 2vmax;
+    background-color: rgb(117, 117, 117);
+    background-image: url(srings.jpg);
+    background-size: 4vmax;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0vmax, -17vmax);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    z-index: 2;
+    opacity: .5;
+    animation: rotationsr 150s linear forwards infinite;
+}
+
+@keyframes rotationsr {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 4vmax;
+    }
+}
+
+
+.ouranos {
+    display: none;
+    position: relative;
+    width: 28vmax;
+    height: 28vmax;
+    background-image: url(uranus.jpg);
+    background-size: 60vmax;
+    border-radius: 100%;
+    transform: rotateZ(-90deg);
+    box-shadow: 1.5vmax -1.5vmax 1.5vmax -1.7vmax white, 3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotationu 100s linear forwards infinite, entry 3s ease forwards;
+    z-index: 2;
+    overflow: visible;
+}
+
+
+.uraname {
+    right: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+    transform: rotateZ(90deg);
+
+}
+
+
+@keyframes rotationu {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 60vmax;
+    }
+}
+
+
+.poseidon {
+    display: none;
+    position: relative;
+    width: 27vmax;
+    height: 27vmax;
+    background-image: url(poseidon.jpg);
+    background-size: 59vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotationp 150s linear forwards infinite, entry 3s ease forwards;
+    z-index: 2;
+    overflow: visible;
+}
+
+
+.neptuname {
+    top: -5vmax;
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow: visible;
+    animation: planetname 4s linear forwards, ease-in-out;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+
+
+
+@keyframes rotationp {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 59vmax;
+    }
+}
+
+
+
+
+
+
+
+
+.itemscontainer {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 16vh;
+    transform: translateY(0vh);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible !important;
+}
+
+.namecontainer {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    transform: translateY(-60vh);
+    opacity: 0;
+    animation: name 1.8s ease-in-out .3s forwards;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes name {
+    0% {
+        opacity: 0;
+        transform: translateY(-60vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}
+
+
+.name {
+    display: flex;
+    position: relative;
+    margin-right: 0%;
+    height: inherit;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 3vmin;
+    overflow-y: hidden !important;
+}
+
+.name span {
+    position: relative;
+    top: 0vh;
+}
+
+.name span:nth-child(1n) {
+    position: relative;
+    animation: letters 1.5s linear 1.2s;
+}
+
+.name span:nth-child(2n) {
+    position: relative;
+    animation: letters 1.5s linear 1.3s;
+}
+
+.name span:nth-child(3n) {
+    position: relative;
+    animation: letters 1.5s linear 1.4s;
+}
+
+.name span:nth-child(4n) {
+    position: relative;
+    animation: letters 1.5s linear 1.5s;
+}
+
+.name span:nth-child(5n) {
+    position: relative;
+    animation: letters 1.5s linear 1.6s;
+}
+
+.name span:nth-child(6n) {
+    position: relative;
+    animation: letters 1.5s linear 1.7s;
+}
+
+.name span:nth-child(7n) {
+    position: relative;
+    animation: letters 1.5s linear 1.8s;
+}
+
+.name span:nth-child(8n) {
+    position: relative;
+    animation: letters 1.5s linear 1.9s;
+}
+
+.name span:nth-child(9n) {
+    position: relative;
+    animation: letters 1.5s linear 2s;
+}
+
+.name span:nth-child(10n) {
+    position: relative;
+    animation: letters 1.5s linear 2.1s;
+}
+
+.name span:nth-child(11n) {
+    position: relative;
+    animation: letters 1.5s linear 2.2s;
+}
+
+.name span:nth-child(12n) {
+    position: relative;
+    animation: letters 1.5s linear 2.3s;
+}
+
+.name span:nth-child(13n) {
+    position: relative;
+    animation: letters 1.5s linear 2.4s;
+}
+
+.name span:nth-child(14n) {
+    position: relative;
+    animation: letters 1.5s linear 2.5s;
+}
+
+.name span:nth-child(15n) {
+    position: relative;
+    animation: letters 1.5s linear 2.6s;
+}
+
+.name span:nth-child(16n) {
+    position: relative;
+    animation: letters 1.5s linear 2.7s;
+}
+
+
+
+
+
+
+@keyframes letters {
+    0% {
+        top: -3vh;
+    }
+
+    50% {
+        top: 0vh;
+    }
+
+    100% {
+        top: 3vh;
+    }
+}
+
+
+.linecontainer {
+    display: none;
+    position: relative;
+    width: 100%;
+    bottom: 84vh;
+    height: .2vh;
+    transform: translateY(84vh);
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.line {
+    position: relative;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    animation: line 1.5s linear 2s forwards;
+    box-shadow: 0vh 0vh 0vh 0vh rgb(255, 255, 255);
+}
+
+@keyframes line {
+    0% {
+        width: 0vw;
+    }
+
+    100% {
+        width: 20vw;
+        box-shadow: 0vh 0vh 10vh 10vh rgb(255, 255, 255);
+    }
+
+}
+
+.buttoncontainer {
+    display: flex;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    transform: translateX(00%);
+    transition: all .3s;
+}
+
+.startbtn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    font-family: 'Syncopate', sans-serif;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.buttoncontainer:hover {
+    transform: scale(1.1);
+    box-shadow: 0vmax 0vmax .5vmax .1vmax white;
+}
+
+.next {
+    display: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    font-family: 'Syncopate', sans-serif;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.resetbtn {
+    display: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    font-family: 'Syncopate', sans-serif;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+
+
+
+.contentcontainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(212, 212, 212);
+    overflow: hidden;
+}
+
+.gridcontainer {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    overflow-y: hidden;
+
+}
+
+.grid {
+    display: -ms-inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: fit-content;
+    margin: 5%;
+    padding: 2%;
+    padding-right: 2vmax;
+    box-shadow: 1vmax 1vmax 1vmax 0vmax black;
+    font-size: 1.5vw;
+    background-color: rgb(200, 200, 200);
+    color: rgb(17, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card p {
+    padding-left: 5vmax;
+}
+
+.card:nth-child(1) .sun2 {
+    padding-left: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(sun.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: 0vmax 0vmax 2vmax 1vmax rgb(255, 102, 0);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(2) .hermes2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(hermes-min.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(3) .aphrodite2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(venus.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(4) .earth2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(earth.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(5) .moon2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(moon.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(6) .ares2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(mars.webp);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(7) .zeus2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(zeus.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(8) .kronos2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(saturn.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(9) .ouranos2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(uranus.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+.card:nth-child(10) .poseidon2 {
+    padding-right: 20vmax;
+    display: flex;
+    position: relative;
+    background-image: url(poseidon.jpg);
+    background-size: 45vmax;
+    width: 20vmax;
+    height: 20vmax;
+    border-radius: 100%;
+    box-shadow: -1vmax -1vmax 1vmax -1.2vmax white, -3vmax -3vmax 2vmax 0vmax inset rgb(17, 17, 17);
+    animation: rotatione 24s linear infinite;
+    left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.solarsystemcontainer {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    height: 0vh;
+    width: 100vw;
+    background-color: rgb(17, 17, 17);
+    z-index: 100;
+    transition: 2s;
+}
+
+.thesun {
+    position: relative;
+    display: flex;
+    height: 2vmax;
+    width: 2vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    border: 1px solid orange;
+    /* background-color: orange; */
+    background-image: url(sun.jpg);
+    background-size: 13vmax;
+    animation: rotationsun 10s linear infinite;
+    z-index: 1;
+    box-shadow: 0vmax 0vmax 0.5vmax 0.2vmax rgb(255, 102, 0);
+}
+
+@keyframes rotationsun {
+    0% {
+        background-position: 0vmax;
+    }
+
+    100% {
+        background-position: 13vmax;
+    }
+}
+
+
+
+
+
+
+
+.hermesorbit {
+    position: absolute;
+    display: ruby;
+    height: 6vmax;
+    width: 6vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.hermesplanet {
+    position: absolute;
+    display: block;
+    height: 1vmax;
+    width: 1vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(hermes.jpg);
+    background-size: 2vmax;
+    z-index: 20;
+}
+
+
+
+
+
+
+.aphroditeorbit {
+    position: absolute;
+    display: flex;
+    height: 10vmax;
+    width: 10vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.aphroditeplanet {
+    position: absolute;
+    display: block;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(venus.jpg);
+    background-size: 3vmax;
+    z-index: 20;
+}
+
+
+
+
+
+.earthorbit {
+    position: absolute;
+    display: flex;
+    height: 15vmax;
+    width: 15vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.earthplanet {
+    position: absolute;
+    display: block;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(earth.jpg);
+    background-size: 3vmax;
+    z-index: 20;
+    overflow: visible;
+}
+
+.moonorbit {
+    position: absolute;
+    display: flex;
+    height: 2.5vmax;
+    width: 2.5vmax;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.moonplanet {
+    position: absolute;
+    display: block;
+    height: .5vmax;
+    width: .5vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(moon.jpg);
+    background-size: 1vmax;
+    z-index: 20;
+    overflow: visible;
+}
+
+
+
+.marsorbit {
+    position: absolute;
+    display: flex;
+    height: 20vmax;
+    width: 20vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.marsplanet {
+    position: absolute;
+    display: block;
+    height: 1.2vmax;
+    width: 1.2vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(mars.webp);
+    background-size: 2.4vmax;
+    z-index: 20;
+}
+
+
+
+
+.jupiterorbit {
+    position: absolute;
+    display: flex;
+    height: 25vmax;
+    width: 25vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.jupiterplanet {
+    position: absolute;
+    display: block;
+    height: 2vmax;
+    width: 2vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(zeus.jpg);
+    background-size: 4vmax;
+    z-index: 20;
+}
+
+
+
+
+.cronosorbit {
+    position: absolute;
+    display: flex;
+    height: 30vmax;
+    width: 30vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.cronosplanet {
+    position: absolute;
+    display: block;
+    height: 1.8vmax;
+    width: 1.8vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(saturn.jpg);
+    background-size: 3.6vmax;
+    z-index: 20;
+}
+
+
+
+
+.uranusorbit {
+    position: absolute;
+    display: flex;
+    height: 35vmax;
+    width: 35vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.uranusplanet {
+    position: absolute;
+    display: block;
+    height: 1.6vmax;
+    width: 1.6vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(uranus.jpg);
+    background-size: 3.2vmax;
+    z-index: 20;
+}
+
+
+
+.neptuneorbit {
+    position: absolute;
+    display: flex;
+    height: 40vmax;
+    width: 40vmax;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border: solid thin gray;
+    border-radius: 100%;
+    overflow: visible;
+}
+
+.neptuneplanet {
+    position: absolute;
+    display: block;
+    height: 1.5vmax;
+    width: 1.5vmax;
+    border-radius: 100%;
+    border: solid thin gray;
+    background-image: url(poseidon.jpg);
+    background-size: 3vmax;
+    z-index: 20;
+}
+
+
+.arrowbuttoncontainer {
+    display: block;
+    position: absolute;
+    color: transparent;
+    height:fit-content;
+    width: fit-content;
+    left: 100%;
+    top: 100%;
+    transform: translate(-120%, -150%);
+    z-index: 100;
+}
+
+.arrowbutton {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vmax;
+    font-family: 'Syncopate', sans-serif;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: relative;
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    font-size: .5vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: .2vmax;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    overflow: visible;
+}
+
+.bi-instagram {
+    width: 1vmax;
+    height: 1vmax;
+    transition: all .2s;
+    color: white;
+}
+
+.bi-instagram:hover {
+    transform: scale(1.3);
+}
